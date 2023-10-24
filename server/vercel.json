@@ -1,5 +1,5 @@
 {
-   "version":"32.5.0",
+   "version":2,
     "name": "gdocs",
     "builds": [
        { "src": "./index.js", "use": "@vercel/node" }
