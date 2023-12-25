@@ -5,7 +5,7 @@ mongoose.connect(process.env.MONGO_URL);
 
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "https://g-docs-clone-mocha.vercel.app/",
+    origin: "https://g-docs-clone-mocha.vercel.app",
     methods: ["GET", "POST"],
   },
 });
